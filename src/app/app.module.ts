@@ -7,12 +7,18 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { HeaderComponent } from './components/header/header.component';
+import { CartComponent } from './components/cart/cart.component';
+import { ProductComponent } from './components/product/product.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    DashboardComponent
+    DashboardComponent,
+    HeaderComponent,
+    CartComponent,
+    ProductComponent
   ],
   imports: [
     BrowserModule,
