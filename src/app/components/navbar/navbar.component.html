@@ -1,10 +1,19 @@
-<ul ngbNav #nav="ngbNav" class="nav-tabs bg-dark text-white p-3 mb-3">
+<ul ngbNav #nav="ngbNav" class="nav-tabs bg-dark text-white p-3 mb-3 shadow-sm align-item-center d-flex">
     <li ngbNavItem>
-        <a ngbNavLink>First</a>
+        <a ngbNavLink class="mr-2">
+            <fa-icon [icon]="faShippingFast"></fa-icon>
+        </a>
         <ng-template ngbNavContent>First content</ng-template>
     </li>
     <li ngbNavItem>
-        <a ngbNavLink>Second</a>
+        <div class="form-group">
+            <input type="text" placeholder="Search here ..." name="searchbar" class="form-control">
+        </div>
+    </li>
+    <li ngbNavItem>
+        <a ngbNavLink>
+            <fa-icon class="cart-icon" [icon]="faHeart"></fa-icon>
+        </a>
         <ng-template ngbNavContent>Second content</ng-template>
     </li>
 </ul>
