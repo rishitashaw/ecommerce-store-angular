@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { faShippingFast, faHeart } from '@fortawesome/free-solid-svg-icons'
+import { faShippingFast, faCartPlus } from '@fortawesome/free-solid-svg-icons'
 @Component({
   selector: 'app-navbar',
   templateUrl: './navbar.component.html',
@@ -7,7 +7,7 @@ import { faShippingFast, faHeart } from '@fortawesome/free-solid-svg-icons'
 })
 export class NavbarComponent implements OnInit {
   faShippingFast = faShippingFast
-  faHeart = faHeart
+  faCartPlus = faCartPlus
   constructor() { }
 
   ngOnInit(): void {
